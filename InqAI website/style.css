@@ -1,0 +1,193 @@
+/* .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 2s;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+h1, h2 {
+  font-family: "Open Sans", serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.logo {
+  background: url("logo.jpg");
+  background-position: center;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  opacity: 0;
+  min-height: 750px;
+  transition: opacity 2s;
+}
+
+/* #bar:hover {
+  height: 300px;
+} */
+
+.search {
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  transition: height 2s;
+  border-radius: 20px;
+}
+
+/* .search::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+#logo {opacity: 0;}
+/* #bar {transition-timing-function: ease;} */
+#logo {transition-timing-function: linear;}
+
+.box2{
+  background-color: grey;
+  height: 2000px;
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 2%;
+}
+
+.box {
+  padding-top: 2%;
+  background-color: orange;
+  height: 2000px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.photoBox {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-row-gap: 5%;
+}
+
+.Jpg{
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.desc {
+  color: orange;
+}
+
+.name {
+  color: orange;
+  font-size: 250%;
+}
+
+.idBox{
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 8%;
+  padding: 3%;
+}
+
+.text2 {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 30px;
+  color: grey;
+}
+
+.title {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin: 2%;
+}
+
+.categoryBox {
+  color: white;
+  font-size: 10px;
+}
+
+.menuGrid {
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+}
+
+.barLogo {
+  float: left;
+  width: 70px;
+  height: auto;
+  margin-right: 1500%;
+}
+
+.LogoBox {
+  width: 20px;
+  height: auto;
+}
+
+.opening {
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 90px;
+}
+
+.start {
+  text-align: center;
+}
+
+/* .info {
+  background-color: grey;
+  border-radius: 20px;
+} */
+
+@media only screen and (max-width: 800px) {
+  [class*="desc"]{
+    font-size: 150%;
+  }
+
+  [class*="photoBox"]{
+    grid-template-columns: 1fr;
+    grid-row-gap: 2%;
+  }
+
+  [class*="idBox"]{
+    margin-left: 8%;
+  }
+
+  [class*="box"]{
+    height: 3700px;
+  }
+
+  [class*="text"]{
+    font-size: 20px;
+  }
+
+  [class*="title"]{
+    font-size: 50px;
+  }
+
+  [class*="barLogo"]{
+    margin-right: 250%;
+  }
+
+}
