@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+InqueryAI Website 
 
-Template Name: Flattern
-Template URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Designed by: Kenneth Zhang
+Date: Tuesday June 30th, 2020
